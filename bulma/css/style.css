@@ -1,0 +1,910 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+
+/* paletas y estilos */
+/* border-color: rgb(151, 238, 209);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+
+
+/***estilos header****/
+.fondo-nav {
+    background-image: url(../pictures/firstSec4.jpg);
+    object-fit: cover;
+    background-size: cover;
+}
+
+.logo {
+    border-radius: 30px;
+    width: 78px;
+    color: red;
+}
+
+/***first section***/
+
+.caja1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    height: 55vh;
+    background-image: url(../pictures/firstSec4.jpg);
+    height: 55vh;
+    background-size: cover;
+    background-attachment: fixed;
+
+    display: flex;
+}
+
+.contenedor2 {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    font-weight: bold;
+    font-size: 80%;
+    display: grid;
+    color: #070000f6;
+    align-items: flex-start;
+    justify-content: center;
+    height: 10%;
+
+}
+
+.p2 {
+    justify-self: end;
+    align-self: flex-end;
+    font-size: 55px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.p1 {
+    border: solid;
+    justify-self: flex-start;
+    align-self: center;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(19, 15, 15);
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    border: solid;
+    border-color: rgb(151, 238, 209);
+    border-radius: 15px;
+
+}
+
+
+
+
+/**** check-in section**/
+.formulario-user {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.section-check {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+}
+
+.check-in {
+    box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.2);
+    display: block;
+    height: 40vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.contenedor-checkin {
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgb(239, 255, 253);
+    border-radius: 10px;
+    border-color: gainsboro;
+    padding: 10px;
+    margin-right: 20px;
+    width: 60vw;
+}
+
+.guests {
+    border-radius: 10px;
+    background-color: inherit;
+    width: 75px;
+}
+
+.h1-form {
+    font-size: 30px;
+
+}
+
+.checks {
+    color: black;
+    background-color: inherit;
+    border-color: inherit;
+}
+
+.listado-reservas {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+}
+
+/***carrusel section**/
+.carr-image {
+    padding-top: 30px;
+    object-fit: cover;
+    height: 75vh;
+}
+/****** payement section*****/
+#payment{
+    margin-top: 16px;
+    padding-top: 16px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.credit-card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: aliceblue;
+    border-radius: 10px;
+    border-color: gainsboro;
+    width: 500px;
+   justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.proceed-btn{
+   
+    height: 55px;
+    width: 120px;
+    margin: 10px;
+    background-color: rgb(239, 255, 253);
+    border-radius: 9px;
+}
+.text-button{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+}
+/******2second-section*****/
+
+.second-section {
+    border-radius: 4px;
+    margin: 50px;
+    margin-bottom: 50px;
+    margin-top: 60px;
+    padding-bottom: 30px;
+    background-image: url(../pictures/firstSec8.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.box-fotos {
+    padding: 10px;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 3fr 3fr fr;
+    justify-content: center;
+
+    align-items: flex-start;
+    justify-content: left;
+}
+
+.box-fotos-section {
+    height: 200px;
+    width: 300px;
+
+}
+
+.foto-box1 {
+    display: grid;
+
+    grid-area: 1 / 3 / 4/ 4;
+    grid-row: span 3;
+    height: 350px;
+    background-color: white;
+    padding: 2px;
+}
+
+.foto-box3 {
+    display: grid;
+    grid-area: 1/ 3 / 2/ 3;
+    background-color: white;
+    padding: 2px;
+}
+
+.foto-box2 {
+    background-color: white;
+    padding: 2px;
+    height: 300px;
+    width: 200px;
+    display: grid;
+    grid-area: 1/ 1 / 3/ 3;
+    align-items: flex-start;
+    justify-content: left;
+    grid-column: span 2;
+    border-radius: px;
+
+}
+
+.section-breathe {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 7.5rem;
+
+}
+
+.h1-section {
+    display: flex;
+    color: white;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.p-section {
+    display: flex;
+    color: white;
+    /* color:  rgb(19, 15, 15); */
+    justify-items: center;
+    justify-self: center;
+    font-style: italic;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.enviar-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+/** footer section **/
+
+.footer {
+
+    height: 20vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
+    background-color: rgb(184, 255, 249);
+
+}
+
+
+.box-footer {
+    display: flex;
+
+}
+
+.instagram {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+}
+
+.g-mail {
+    justify-content: right;
+    align-items: flex-start;
+    width: 50px;
+    height: 50px;
+    size: 3px;
+    background-color: inherit;
+    font-size: 1px;
+    color: red;
+    border-radius: 100px;
+}
+
+.name {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(19, 15, 15);
+    font-size: 30px;
+    font-style: italic;
+
+
+
+}
+
+/*** 
+El alojamiento
+Los departamentos se encuentra en un primer piso y segundo piso. El del primer piso cuenta con un balcón brinda el aire y verde soñados.
+
+Amorosamente decorados para que quien se hospede sienta lo apreciada que es su presencia.
+
+Adorable primer piso se adapta a tus necesidades :cuenta con un balcón brinda el aire y verde soñados; una funcional mesa rebatible nos permite desayunar en el balcón, almorzar dentro, cenar nuevamente fuera mirando las estrellas o trabajar en una práctica zona de trabajo.
+Adorable segundo piso cuenta con una luz incomparable y una cama extra que permite que tres huespedes duerman en sus respectvias camas!
+Acceso de los huéspedes
+Como servicio opcional extra (con cargo) el Adorable apartment ofrece meditaciones diarias y/o caminatas conscientes.
+O un link con 7 meditaciones grabadas para realizar frente al mar a su tiempo! (sin cargo!)
+**/
+/**first section apartamentos**/
+.container-deptos {
+    padding: 20px;
+}
+
+.containerDepartamentos {
+
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+
+
+
+}
+
+.subtitle-carr {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+
+.text-deptos {
+    background-color: rgb(239, 255, 253);
+    border-radius: 10px;
+    border-color: gainsboro;
+    margin: 2rem;
+    border: solid;
+    border-radius: 25px;
+    padding: 1.5rem;
+    border: solidd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: unset;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+
+}
+
+
+
+/** servicios departamentos****/
+.services {
+
+    padding: 2rem;
+
+}
+
+.services_h2 {
+    padding: 1rem;
+    display: flex;
+    font-weight: lighter;
+    justify-content: cente;
+}
+
+.services_box {
+    display: flex;
+    gap: 5em;
+
+
+}
+
+.services_items {
+    display: flex;
+    flex-direction: column;
+    color: rgb(32, 29, 29);
+    font-size: 24px;
+    font-weight: lighter;
+
+    gap: 1em;
+}
+
+
+.services_cocina {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5em;
+
+}
+
+.services_wifi {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5em;
+
+}
+
+.services_parking {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5em;
+
+}
+
+.services_aire {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5em;
+
+}
+
+.services_microondas {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5em;
+
+}
+
+.services_tv {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5em;
+
+}
+
+.services_balcon {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5em;
+
+}
+
+.services_heladera {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5em;
+
+}
+
+
+
+/* ----alojamiento consciente-section--*/
+.aalojamiento_body {
+    background-color: rgb(172, 161, 161);
+}
+
+.alojamiento_section {
+
+    color: wheat;
+    border-radius: 11px;
+    margin: 3%;
+    background-image: url(../pictures/WhatsApp\ Image\ 2022-03-11\ at\ 4.26.58\ PM.jpeg);
+    height: 150vh;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    background-size: cover;
+    background-attachment: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: right;
+    gap: 19rem;
+
+}
+
+.alojamiento_title {
+    font-size: 50px;
+    font-weight: lighter;
+    margin: 5%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.alojamiento_text {
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgb(232, 248, 248);
+    height: 90vh;
+    width: 70vw;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+
+
+.ProfileCards {
+
+    margin: 70px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.card2 {
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 330px;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+
+
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.card .button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card .button:hover {
+    opacity: 0.7;
+}
+
+/**** shop ******/
+.shop-tittle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+    font-size: 50px;
+}
+.tittle-text{
+    font-weight: lighter;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+}
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+
+.product-image {
+    /* transition:width 0.5s; */
+    transition: height 0.8s;
+    height: 200px;
+    width: 250px;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    text-align: center;
+    
+}
+
+.btn-favorito {
+    font-weight: lighter;
+    color: rgb(49, 108, 49);
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(191, 248, 248);
+    margin-bottom: 100px;
+    /* display: inline-block; */
+    width: 150px;
+    padding: 0.1rem 0.1rem;
+    border-radius: 10px;
+    outline: none;
+    
+    cursor: pointer;
+}
+
+.btn.favorito:hover {
+    
+    cursor: pointer;
+    color: rebeccapurple;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    padding-bottom: 5rem;
+}
+
+.contenedor-productos {
+    
+    margin: top 1rem;
+    display: grid;
+    grid-template-areas: initial;
+    gap: 6rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.contenedor .card {
+    height: 200px;
+    width: 230px;
+}
+
+.product-price {
+    color: rgb(81, 79, 79);
+    font-weight: lighter;
+}
+
+.product-especifics {
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgb(49, 108, 49);
+    border-radius: 6px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    width: 250px;
+    background-color: rgb(191, 248, 248);
+    
+}
+.listado-favoritos {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(6, 1fr);
+    height: 30px;
+    width: 420px;
+}
+
+.favoritos-tittle{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+
+}
+
+.contenedor-favoritos {
+    
+    padding-top: 200px;
+    display: grid;
+    grid-template-rows: auto;
+    gap: 2rem;
+
+}
+
+.div-favoritos {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.product-image2{
+   
+     height: 100px;
+     width: 150px;
+     border-radius: 4px;
+     margin-top: 10px;
+     margin-bottom: px;
+     
+     margin: auto;
+     text-align: center;
+ 
+}
+.card2 {
+     display: flex;
+    flex-direction:column;
+    color: black;
+    padding-bottom: 1rem; 
+}
+.product-especifics2 {
+    font-size: 10px;
+    font-weight: lighter;
+    color: rgb(49, 108, 49);
+    border-radius: 6px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    width: 150px;
+    background-color: rgb(191, 248, 248);
+
+}
+/*////////////*/
+
+
+
+
+  
+
+
+/* ///////// */
+.pagos_images {
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+    font-weight: lighter;
+
+}
+
+.shop-h5 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.shop-icons {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    padding: 40px;
+    padding-bottom: 10px;
+
+
+
+}
+
+.shop-icons2 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 40px;
+    padding-bottom: 10px;
+
+
+
+}
+
+.shop-icons3 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: t;
+
+    padding: 40px;
+    padding-bottom: 10px;
+
+
+
+}
+
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+/* contacto *****/
+.contacto-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intento {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    background-image: url(../pictures/imag-cnarr-ad1.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: auto;
+}
+
+.border {
+    height: 50vh;
+    box-sizing: border-box;
+    border-radius: 7px;
+    width: 450px;
+    padding: 6px;
+    margin: auto;
+    margin-top: 0px;
+
+}
+
+/*media queries -- check-in section --  */
+@media screen and (max-width:425px) {
+    .check-in {
+        margin: 20px;
+        padding-bottom: 150px;
+        display: flex;
+        align-items: flex-start;
+
+    }
+
+    .contenedor-checkin {
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+
+    }
+
+    .checks {
+        display: flex;
+    }
+
+}
+
+
+
+/*media queries --first section-- */
+@media screen and (max-width:768px) {
+    .caja1 {
+
+        display: flex;
+        flex-direction: column;
+        font-size: 25px;
+
+    }
+
+    .contenedor2 {
+        gap: none;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .p1 {
+
+        font-size: 7px;
+    }
+
+}
+
+/**media queries --second section--**/
+@media screen and (max-width:768px) {
+
+    .seccion-boxFotos {
+        display: flex;
+
+    }
+
+    .foto-box1 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .foto-box2 {
+        display: none;
+
+    }
+
+    .foto-box3 {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+/* media queries  --servicios cuarto--*/
+@media screen and (max-width: 768px) {
+    .services_box {
+        display: flex;
+        flex-direction: column;
+        color: red;
+    }
+}
