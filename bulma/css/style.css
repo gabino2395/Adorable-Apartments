@@ -519,14 +519,22 @@ O un link con 7 meditaciones grabadas para realizar frente al mar a su tiempo! (
     flex-direction: row;
 
 }
-
+.card2:hover{
+   
+    transform: translate(10px, 20px) ;
+    color: rgb(156, 238, 238);
+}
 .card2 {
+
+    transition: all 2s;       
+
     border-radius: 4px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 330px;
     padding: 20px;
     margin: auto;
     text-align: center;
+    
 }
 
 .title {
